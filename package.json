@@ -1,0 +1,33 @@
+{
+  "name": "laoding-russia-intelligence-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.0.10",
+    "@netlify/functions": "^4.2.5",
+    "@netlify/identity": "^1.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@netlify/vite-plugin": "^2.5.8",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^4.0.15"
+  }
+}
